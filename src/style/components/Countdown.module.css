@@ -13,7 +13,7 @@
 	align-items: center;
 	justify-content: space-evenly;
 
-	background: var(--whiter);
+	background: var(--white);
 	box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
 	border-radius: 5px;
 	font-size: 8.5rem;
@@ -51,7 +51,7 @@
 	border-radius: 5px;
 
 	background: var(--blue);
-	color: var(--whiter);
+	color: var(--white);
 
 	font-size: 1.25rem;
 	font-weight: 600;
@@ -64,7 +64,7 @@
 }
 
 .CountdownButtonActive {
-	background: var(--whiter);
+	background: var(--white);
 	color: var(--title);
 
 	transition: background-color 0.2s;
@@ -72,11 +72,11 @@
 
 .CountdownButtonActive:not(:disabled):hover {
 	background: var(--red);
-	color: var(--whiter);
+	color: var(--white);
 }
 
 .CountdownButton:disabled {
-	background: var(--whiter);
+	background: var(--white);
 	color: var(--text);
 	cursor: not-allowed;
 	border-bottom: 5px solid var(--green);
